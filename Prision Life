@@ -1,0 +1,256 @@
+local PrisonLife = Instance.new("ScreenGui")
+local TopFrame = Instance.new("Frame")
+local Background = Instance.new("Frame")
+local ScriptFrame = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
+local UICorner = Instance.new("UICorner")
+local Rejoin = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local AmongUs = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local VynixiusHub = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Crash = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local AdminCmds = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local AntiFling = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TopBarUI = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+
+--Properties:
+
+PrisonLife.Name = "PrisonLife"
+PrisonLife.Parent = game.CoreGui
+PrisonLife.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+TopFrame.Name = "TopFrame"
+TopFrame.Parent = PrisonLife
+TopFrame.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+TopFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TopFrame.BorderSizePixel = 0
+TopFrame.Position = UDim2.new(0.312280655, 0, 0.307189494, 0)
+TopFrame.Size = UDim2.new(0.190632358, 0, 0.0599999987, 0)
+
+Background.Name = "Background"
+Background.Parent = TopFrame
+Background.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Background.BorderSizePixel = 0
+Background.Position = UDim2.new(0, 0, 0.980392218, 0)
+Background.Size = UDim2.new(1.00000012, 0, 7.97575331, 0)
+
+ScriptFrame.Name = "ScriptFrame"
+ScriptFrame.Parent = Background
+ScriptFrame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+ScriptFrame.BorderSizePixel = 0
+ScriptFrame.Position = UDim2.new(0.0526317395, 0, 0.0348379649, 0)
+ScriptFrame.Size = UDim2.new(0.890081406, 0, 0.867667794, 0)
+
+UIListLayout.Parent = ScriptFrame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 5)
+
+UICorner.Parent = ScriptFrame
+
+Rejoin.Name = "Rejoin"
+Rejoin.Parent = ScriptFrame
+Rejoin.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Rejoin.Size = UDim2.new(0.993429661, 0, 0.104425773, 0)
+Rejoin.Font = Enum.Font.Gotham
+Rejoin.Text = "Rejoin"
+Rejoin.TextColor3 = Color3.fromRGB(255, 255, 255)
+Rejoin.TextScaled = true
+Rejoin.TextSize = 14.000
+Rejoin.TextWrapped = true
+
+UICorner_2.Parent = Rejoin
+
+AmongUs.Name = "AmongUs"
+AmongUs.Parent = ScriptFrame
+AmongUs.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+AmongUs.Size = UDim2.new(0.993429661, 0, 0.104425773, 0)
+AmongUs.Font = Enum.Font.Gotham
+AmongUs.Text = "Among Us"
+AmongUs.TextColor3 = Color3.fromRGB(255, 255, 255)
+AmongUs.TextScaled = true
+AmongUs.TextSize = 14.000
+AmongUs.TextWrapped = true
+
+UICorner_3.Parent = AmongUs
+
+VynixiusHub.Name = "VynixiusHub"
+VynixiusHub.Parent = ScriptFrame
+VynixiusHub.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+VynixiusHub.Size = UDim2.new(0.993429661, 0, 0.104425773, 0)
+VynixiusHub.Font = Enum.Font.Gotham
+VynixiusHub.Text = "Vynixius Hub"
+VynixiusHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+VynixiusHub.TextScaled = true
+VynixiusHub.TextSize = 14.000
+VynixiusHub.TextWrapped = true
+
+UICorner_4.Parent = VynixiusHub
+
+Crash.Name = "Crash"
+Crash.Parent = ScriptFrame
+Crash.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Crash.Size = UDim2.new(0.993429661, 0, 0.104425773, 0)
+Crash.Font = Enum.Font.Gotham
+Crash.Text = "Crash"
+Crash.TextColor3 = Color3.fromRGB(255, 255, 255)
+Crash.TextScaled = true
+Crash.TextSize = 14.000
+Crash.TextWrapped = true
+
+UICorner_5.Parent = Crash
+
+AdminCmds.Name = "AdminCmds"
+AdminCmds.Parent = ScriptFrame
+AdminCmds.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+AdminCmds.Size = UDim2.new(0.993429661, 0, 0.104425773, 0)
+AdminCmds.Font = Enum.Font.Gotham
+AdminCmds.Text = "Admin Cmds"
+AdminCmds.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdminCmds.TextScaled = true
+AdminCmds.TextSize = 14.000
+AdminCmds.TextWrapped = true
+
+UICorner_6.Parent = AdminCmds
+
+AntiFling.Name = "AntiFling"
+AntiFling.Parent = ScriptFrame
+AntiFling.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+AntiFling.Size = UDim2.new(0.993429661, 0, 0.104425773, 0)
+AntiFling.Font = Enum.Font.Gotham
+AntiFling.Text = "Anti Fling"
+AntiFling.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiFling.TextScaled = true
+AntiFling.TextSize = 14.000
+AntiFling.TextWrapped = true
+
+UICorner_7.Parent = AntiFling
+
+TopBarUI.Name = "TopBarUI"
+TopBarUI.Parent = TopFrame
+TopBarUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TopBarUI.BackgroundTransparency = 1.000
+TopBarUI.BorderSizePixel = 0
+TopBarUI.Position = UDim2.new(-0.00584777491, 0, 0, 0)
+TopBarUI.Size = UDim2.new(1.00584805, 0, 0.967765689, 0)
+
+Title.Name = "Title"
+Title.Parent = TopBarUI
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.0546344221, 0, 0.072621651, 0)
+Title.Size = UDim2.new(0.579580963, 0, 0.818243325, 0)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Prision Life Scripts"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = TopBarUI
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.847953022, 0, 0.217864931, 0)
+Close.Size = UDim2.new(0.0889122859, 0, 0.564067543, 0)
+Close.Font = Enum.Font.SourceSans
+Close.Text = ""
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 14.000
+
+-- Scripts:
+
+local function KXOXNGO_fake_script() -- TopFrame.Dragify 
+	local script = Instance.new('LocalScript', TopFrame)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(KXOXNGO_fake_script)()
+
+game:GetService("UserInputService").InputBegan:Connect(function(input)
+	if input.KeyCode == Enum.KeyCode.RightControl then
+		if TopFrame.Visible == true then
+			TopFrame.Visible = false
+		else
+			TopFrame.Visible = true
+		end
+	end
+end)
+
+Rejoin.MouseButton1Click:Connect(function()
+	local TeleportService = game:GetService("TeleportService")
+	local plr = game.Players.LocalPlayer
+	local gameId = game.PlaceId
+	wait(1)
+	TeleportService:Teleport(gameId, plr)
+end)
+
+AmongUs.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Pmwcehjj"))();
+end)
+
+VynixiusHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Prison%20Life/Script.lua"))()
+end)
+
+Crash.MouseButton1Click:Connect(function()
+	while wait() do
+		loadstring(game:HttpGet("https://pastebin.com/raw/4yjHcsQE"))();
+	end
+end)
+
+AdminCmds.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+end)
+
+AntiFling.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Y44x93wn"))();
+end)
+
+Close.MouseButton1Click:Connect(function()
+	PrisonLife:Destroy()
+end)
